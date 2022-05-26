@@ -1,6 +1,6 @@
 import * as fs from "fs";
 
-const pacticipant = "consumer-web-product";
+const pacticipant = "dave-consumer-web-product";
 const provider = "provider-product-api";
 
 const filePath = `./pacts/${pacticipant}-${
