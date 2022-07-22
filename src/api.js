@@ -24,7 +24,7 @@ export class ProductAPIClient {
 
   async getAllProducts() {
     return axios
-      .get(this.withPath("/product"))
+      .get(this.withPath("/products"))
       .then((r) => r.data.map((p) => new Product(p)));
   }
 
