@@ -30,7 +30,7 @@ export class ProductAPIClient {
 
   async getProduct(id) {
     return axios
-      .get(this.withPath("/products/" + id))
+      .get(this.withPath("/product/" + id))
       .then((r) => new Product(r.data));
   }
 }
